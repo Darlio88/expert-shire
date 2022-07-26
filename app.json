@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "expert-shire",
+    "slug": "expert-shire",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/adaptive-logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/adaptive-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-logo.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/adaptive-logo.png"
+    }
+  }
+}
